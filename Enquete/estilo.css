@@ -1,0 +1,66 @@
+.corpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.enquete{
+    height: 400px;
+    width: 400px;
+    
+    background-color: yellow;
+    border: solid 2px black;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+}
+#botaos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+.botao{
+    height: 40px;
+    width: 60px;
+    border: 0px;
+    box-shadow: 0 4px 0 black;
+}
+.botao:active{
+    transform: translateY(4px);
+}
+#sb{
+    margin-right: 30px;
+    background-color: green;
+}
+#nb{
+    background-color: red;
+}
+#titulo{
+    font-size: 30px;
+}
+.texto{
+    font-size: 20px;
+}
+#blocos{
+    margin-left: 45%;
+}
+.bloco{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#s{
+    background-color: green;
+    height: 20px;
+    width: 10px;
+}
+#n{
+    background-color: red;
+    height: 20px;
+    width: 10px;
+}
